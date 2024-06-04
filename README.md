@@ -26,34 +26,74 @@ The data used in this project was collected from multiple reputable sources:
 
 ## Analysis and Visualizations
 ### Key Metrics
-- **Runtime**: Mean: 104.8 minutes, Range: 41 to 180 minutes
+#### **Runtime**:
 ![Runtime Distribution](runtime_distribution.png)
-- **Production Budget**: Mean: $39 million, Range: $9,000 to $410.6 million
+
+Mean: 104.8 minutes, Range: 41 to 180 minutes
+
+#### **Production Budget**: 
 ![Production Budget Distribution](production_budget_distribution.png)
-- **Domestic Gross**: Mean: $48.3 million, Range: $0 to $700 million
+
+Mean: $39 million, Range: $9,000 to $410.6 million
+
+#### **Domestic Gross**: 
 ![Domestic Gross Distribution](domestic_gross_distribution.png)
-- **Worldwide Gross**: Mean: $119 million, Range: $0 to $2.048 billion
+
+Mean: $48.3 million, Range: $0 to $700 million
+
+#### **Worldwide Gross**: 
 ![Worldwide Gross Distribution](worldwide_gross_distribution.png)
-- **Profit**: Mean: $80 million, Range: -$110.5 million to $1.748 billion
+
+Mean: $119 million, Range: $0 to $2.048 billion
+
+#### **Profit**: 
 ![Profit Distribution](profit_distribution.png)
-- **Average Rating**: Mean: 6.19, Range: 2 to 8.9
+
+Mean: $80 million, Range: -$110.5 million to $1.748 billion
+
+#### **Average Rating**: 
 ![Ratings Distribution](ratings_distribution.png)
 
+Mean: 6.19, Range: 2 to 8.9
+
 ### Key Findings
-- **Runtime vs. Profit**: Slightly longer movies tend to be more profitable.
+
+#### **Runtime vs. Profit**: 
 ![Runtime vs profits](runtime_vs_profit.png)
-- **Genres vs. Profit**: Animation, Adventure, and Sci-Fi genres are financially rewarding.
+
+Slightly longer movies tend to be more profitable.
+
+#### **Genres vs. Profit**:
 ![Genres vs profits](genre_vs_profit.png)
-- **Release Month vs. Profit**: Highest profits in May, June, July, November, and December.
+
+Animation, Adventure, and Sci-Fi genres are financially rewarding.
+
+#### **Release Month vs. Profit**: 
 ![Release months vs profits](release_month_vs_profit.png)
-- **Production Budgets vs. Profit**: Higher production budgets tend to relate to more profits.
+
+Highest profits in May, June, July, November, and December.
+
+#### **Production Budgets vs. Profit**: 
 ![Production budget vs profit](budget_vs_profit.png)
--**Optimum Production Budget Range**: The optimal budget range to maximize profits appears to be $300M-$400M.
+
+Higher production budgets tend to relate to more profits.
+
+#### **Optimum Production Budget Range**: 
 ![Optimum production budget](optimum_budget_range.png)
-- **Ratings vs. Profit**: Higher-rated movies tend to be more profitable.
+
+The optimal budget range to maximize profits appears to be $300M-$400M.
+
+#### **Ratings vs. Profit**: 
 ![Ratings vs profits](ratings_vs_profit.png)
-- **Director Impact on Profits**: Top directors (e.g., Joss Whedon, Anthony Russo) show high mean profits.
+
+Higher-rated movies tend to be more profitable.
+
+#### **Director Impact on Profits**: 
 ![Directors vs profits](directors_vs_profits.png)
+
+Top directors (e.g., Joss Whedon, Anthony Russo) show high mean profits.
+
+---
 
 ## Recommendations
 1. **Focus on High-Performing Genres**: Invest in Animation, Adventure, and Sci-Fi genres.
@@ -62,6 +102,8 @@ The data used in this project was collected from multiple reputable sources:
 4. **Leverage High-Rating Factors**: Ensure high production quality, compelling storytelling, and strong performances.
 5. **Director and Talent Strategy**: Collaborate with top directors and develop in-house talent.
 6. **Monitor Market Trends and Audience Preferences**: Stay agile with market trends and audience feedback.
+
+---
 
 ## Limitations of the Analysis
 - **Data Variability**: High variability in key metrics such as budgets and gross earnings.
