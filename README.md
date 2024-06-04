@@ -13,42 +13,47 @@ The data used in this project was collected from multiple reputable sources:
 1. **IMDB Local Database**: Detailed information on movies and TV shows.
 2. **Rotten Tomatoes Reviews**: Aggregated critical reception data.
 3. **Rotten Tomatoes Movie Info**: Comprehensive movie details.
-4. **Box Office Mojo**: Box office revenue data.
-5. **The Numbers Movie Budgets**: Financial details on movie budgets and performance.
-6. **TMDb Movies**: Additional movie-related information.
+4. **The Numbers Movie Budgets**: Financial details on movie budgets and performance.
+5. **TMDb Movies**: Additional movie-related information.
 
 ## Data Preparation
 1. **Data Collection**: Gathered data from the aforementioned sources.
-2. **Data Cleaning**: Handled missing values, standardized formats, and managed outliers.
+2. **Data Cleaning**: Handled missing values, standardized formats.
 3. **Data Integration**: Merged datasets using common keys and removed duplicates.
-4. **Data Transformation**: Created new features like profit and applied normalization and scaling.
+4. **Feature Engineering**: Created new features like profit.
 5. **Exploratory Data Analysis (EDA)**: Calculated descriptive statistics and generated visualizations.
 6. **Bivariate and Correlation Analysis**: Computed correlation coefficients and visualized relationships.
 
 ## Analysis and Visualizations
 ### Key Metrics
 - **Runtime**: Mean: 104.8 minutes, Range: 41 to 180 minutes
+![Runtime Distribution](runtime_distribution.png)
 - **Production Budget**: Mean: $39 million, Range: $9,000 to $410.6 million
+![Production Budget Distribution](production_budget_distribution.png)
 - **Domestic Gross**: Mean: $48.3 million, Range: $0 to $700 million
+![Domestic Gross Distribution](domestic_gross_distribution.png)
 - **Worldwide Gross**: Mean: $119 million, Range: $0 to $2.048 billion
+![Worldwide Gross Distribution](worldwide_gross_distribution.png)
 - **Profit**: Mean: $80 million, Range: -$110.5 million to $1.748 billion
+![Profit Distribution](profit_distribution.png)
 - **Average Rating**: Mean: 6.19, Range: 2 to 8.9
+![Ratings Distribution](ratings_distribution.png)
 
 ### Key Findings
 - **Runtime vs. Profit**: Slightly longer movies tend to be more profitable.
+![Runtime vs profits](runtime_vs_profit.png)
 - **Genres vs. Profit**: Animation, Adventure, and Sci-Fi genres are financially rewarding.
+![Genres vs profits](genre_vs_profit.png)
 - **Release Month vs. Profit**: Highest profits in May, June, July, November, and December.
-- **Production Budgets vs. Profit**: Strong positive correlation (0.675) with an optimal budget range of $300M-$400M.
+![Release months vs profits](release_month_vs_profit.png)
+- **Production Budgets vs. Profit**: Higher production budgets tend to relate to more profits.
+![Production budget vs profit](budget_vs_profit.png)
+-**Optimum Production Budget Range**: The optimal budget range to maximize profits appears to be $300M-$400M.
+![Optimum production budget](optimum_budget_range.png)
 - **Ratings vs. Profit**: Higher-rated movies tend to be more profitable.
+![Ratings vs profits](ratings_vs_profit.png)
 - **Director Impact on Profits**: Top directors (e.g., Joss Whedon, Anthony Russo) show high mean profits.
-
-### Visualizations
-- Distribution of Movie Runtimes
-- Production Budget vs. Profit
-- Average Profit by Genre
-- Average Profit by Release Month
-- Rating vs. Profit
-- Average Movie Profit Trends Over the Years
+![Directors vs profits](directors_vs_profits.png)
 
 ## Recommendations
 1. **Focus on High-Performing Genres**: Invest in Animation, Adventure, and Sci-Fi genres.
